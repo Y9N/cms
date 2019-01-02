@@ -1,4 +1,4 @@
 {{ $data }}
 @foreach($data as $v)
-    {{$v->name}}:{{$v->age}}
+    {{$v->name}}<br>:{{$v->age}}
 @endforeach
